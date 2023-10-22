@@ -1,0 +1,10 @@
+.delete {
+    color: white;
+    background-color: rgb(128, 0, 0);
+    border-radius: 6px;
+    display: inline-block;
+    margin-left: 60px;    
+}
+.contact {
+    color: blue;
+}
