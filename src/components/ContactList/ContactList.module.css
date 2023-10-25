@@ -1,10 +1,10 @@
-.delete {
-    color: white;
-    background-color: rgb(128, 0, 0);
-    border-radius: 6px;
-    display: inline-block;
-    margin-left: 60px;    
+
+.item {
+  display: flex;
+  grid: 18px;
+  align-items: center;
+  justify-content: space-between;
 }
-.contact {
-    color: blue;
+.DeleteIcon {
+  color: rgba(131, 31, 31, 0.523);
 }
