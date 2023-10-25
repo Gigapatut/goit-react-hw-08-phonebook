@@ -8,7 +8,7 @@ import Filter from 'components/Filter/Filter';
 import ContactList from 'components/ContactList/ContactList';
 import css from './Contacts.module.css';
 
-import { ProgressBar } from 'react-loader-spinner';
+import { Watch } from 'react-loader-spinner';
 
 const Contacts = () => {
   const dispatch = useDispatch();
@@ -28,14 +28,15 @@ const Contacts = () => {
 
       {isLoading && !error && (
         <b>
-          <ProgressBar
+          <Watch
             height="80"
-            width="380"
-            ariaLabel="progress-bar-loading"
+             width="80"
+            radius="48"
+            color="#4fa94d"
+            ariaLabel="watch-loading"
             wrapperStyle={{}}
-            wrapperClass="progress-bar-wrapper"
-            borderColor="black"
-            barColor="grey"
+            wrapperClassName=""
+            visible={true}
           />
         </b>
       )}
