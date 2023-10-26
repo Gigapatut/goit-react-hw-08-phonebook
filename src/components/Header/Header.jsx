@@ -6,7 +6,6 @@ import authSelectors from 'redux/auth/auth-selectors';
 
 import * as React from 'react';
 import { AppBar } from '@mui/material';
-import Container from '@mui/material/Container';
 import Toolbar from '@mui/material/Toolbar';
 
 const Header = () => {
